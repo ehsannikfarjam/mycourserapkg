@@ -1,0 +1,18 @@
+Package: mycourserapkg
+Title: Example R Package for Coursera Assignment
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ehsan", "Nikfarjam", email = "Name@example.com", role = c("aut", "cre"))
+Description: Example R package demonstrating documentation, testing, and
+    continuous integration for the Coursera 'Mastering Software
+    Development in R' course.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
